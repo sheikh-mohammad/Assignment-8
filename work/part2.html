@@ -29,7 +29,7 @@
                                 <legend>Login deatils</legend>
                                 <br>
                                 <table>
-                                    <tr>
+                                    <tr height="30px">
                                         <td width="100px">
                                             <label for="name">Name:</label>
                                         </td>
@@ -37,23 +37,19 @@
                                             <input type="text" name="name" id="name">
                                         </td>
                                     </tr>
-                                    <tr>
+                                    <tr height="30px">
                                         <td>
-                                            <br>
                                             <label for="email">Email:</label>
                                         </td>
                                         <td>
-                                            <br>
                                             <input type="email" name="email" id="email">
                                         </td>
                                     </tr>
-                                    <tr>
+                                    <tr height="30px">
                                         <td>
-                                            <br>
                                             <label for="password">Password:</label>
                                         </td>
                                         <td>
-                                            <br>
                                             &nbsp;
                                             &nbsp;
                                             &nbsp;
@@ -64,36 +60,75 @@
                             </fieldset>
                             <fieldset>
                                 <legend>Your feedback</legend>
-                                <br>
-                                <p>Please check all emotions that apply to you:</p>
-                                <label for="angry">Angry</label>
+                                <table width="80%">
+                                    <tr>
+                                        <td>
+                                            <p>Please check all emotions that apply to you:</p>
+                                            <center>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <center>
+                                                <table width="410px">
+                                                    <tr>
+                                                        <td>
+                                                            <label for="angry">Angry</label>
+                                                            <input type="checkbox" name="emotions" id="angry"
+                                                                value="angry">
+                                                            <br>
+                                                            <br>
+                                                            <label for="sad">Sad</label>
 
-                                <input type="checkbox" name="emotions" id="angry" value="angry">
-                                <br>
-                                <br>
-                                <label for="sad">Sad</label>
+                                                            <input type="checkbox" name="emotions" id="sad" value="sad">
+                                                            <br>
+                                                            <br>
+                                                            <label for="happy">Happy</label>
 
-                                <input type="checkbox" name="emotions" id="sad" value="sad">
-                                <br>
-                                <br>
-                                <label for="happy">Happy</label>
+                                                            <input type="checkbox" name="emotions" id="happy"
+                                                                value="happy">
+                                                            <br>
+                                                            <br>
+                                                            <label for="ambivalent">Ambivalent</label>
 
-                                <input type="checkbox" name="emotions" id="happy" value="happy">
-                                <br>
-                                <br>
-                                <label for="ambivalent">Ambivalent</label>
-
-                                <input type="checkbox" name="emotions" id="ambivalent" value="ambivalent">
-                                <p>How satisfied were you with our service?</p>
-                                <label for="sad">Very Satisfied</label>
-
-                                <input type="checkbox" name="emotions" id="sad" value="satisfactory">
+                                                            <input type="checkbox" name="emotions" id="ambivalent"
+                                                                value="ambivalent">
+                                                        </td>
+                                                    </tr>
+                                                </table>
+                                            </center>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <p>How satisfied were you with our service?</p>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <center>
+                                                <table width="400px">
+                                                    <tr>
+                                                        <td>
+                                                            <label for="sad">Very Satisfied</label>
+                                                            <input type="checkbox" name="emotions" id="sad"
+                                                                value="satisfactory">
+                                                        </td>
+                                                    </tr>
+                                                </table>
+                                            </center>
+                                        </td>
+                                    </tr>
+                                </table>
                             </fieldset>
                         </center>
-                    </form>
-                </td>
-            </tr>
         </table>
+        </fieldset>
+    </center>
+    </form>
+    </td>
+    </tr>
+    </table>
     </center>
 </body>
 
